@@ -19,7 +19,7 @@ namespace Avtomoyka1
 
             PageContainer.CurrentPageChanged += PageContainer_CurrentPageChanged;
         }
-        void PageContainer_CurrentPageChanged(object sender, PageType e)
+        void PageContainer_CurrentPageChanged(object sender, PageType e)//s2
         {
             CurrentPage = PageContainer.GetPageByType(e);
             NotifyPropertyChanged("CurrentPage");
